@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NewCommentViewController : UIViewController
+@interface NewCommentViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@property (strong, nonatomic) IBOutlet UIImageView *imgUpload;
+@property (strong, nonatomic) IBOutlet UIButton *btnImagePicker;
 
 @end

@@ -67,12 +67,12 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BE9-oo-mu4">
-                                <rect key="frame" x="313" y="72" width="54" height="54"/>
+                                <rect key="frame" x="326" y="83" width="41" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.15813842268779105" green="0.61261605525362317" blue="0.085792519367481515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="51"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="51"/>
                                 <state key="normal" title="+">
-                                    <color key="titleColor" red="0.74424293019999999" green="1" blue="0.29081244150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.85988833139153398" green="1" blue="0.85668963154910349" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="diL-Pp-8SN" kind="show" id="8Sr-Hz-f27"/>
@@ -151,8 +151,31 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <mapView autoresizesSubviews="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Awo-qO-jvh">
+                                <rect key="frame" x="0.0" y="381" width="373" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="diL-Pp-8SN" id="wxg-Wt-Yky"/>
+                                </connections>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfW-2r-9YR">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1606995837549845" green="0.43863224637681164" blue="0.088641456865752311" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Enviar">
+                                    <color key="titleColor" red="0.90234798297557928" green="0.98562047101449279" blue="0.93627396636568516" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnCadastrar:" destination="diL-Pp-8SN" eventType="touchUpInside" id="2En-Np-exf"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jNf-zO-KCg">
+                                <rect key="frame" x="133" y="195" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xb5-3z-AL7">
-                                <rect key="frame" x="183" y="203" width="100" height="100"/>
+                                <rect key="frame" x="218" y="221" width="61" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="avatar"/>
                                 <connections>
@@ -162,6 +185,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="btnImagePicker" destination="xb5-3z-AL7" id="hTw-Xr-9Qm"/>
+                        <outlet property="imgUpload" destination="jNf-zO-KCg" id="ST4-Ng-955"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tNa-o2-mXN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
