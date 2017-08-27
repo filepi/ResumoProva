@@ -11,6 +11,8 @@
 @interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *tableMain;
 @property (strong, nonatomic) NSArray * comments;
+@property (strong, nonatomic) IBOutlet UITextField *txtName;
+@property (strong, nonatomic) IBOutlet UITextField *txtComment;
 
 
 @end
