@@ -88,7 +88,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1120.8" y="776.76161919040487"/>
+            <point key="canvasLocation" x="927" y="777"/>
         </scene>
         <!--New Comment View Controller-->
         <scene sceneID="l9k-Ky-Fj1">
@@ -150,6 +150,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="diL-Pp-8SN" id="1AO-bh-qNp"/>
+                                </connections>
                             </textField>
                             <mapView autoresizesSubviews="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Awo-qO-jvh">
                                 <rect key="frame" x="0.0" y="381" width="373" height="240"/>
@@ -188,11 +191,15 @@
                     <connections>
                         <outlet property="btnImagePicker" destination="xb5-3z-AL7" id="hTw-Xr-9Qm"/>
                         <outlet property="imgUpload" destination="jNf-zO-KCg" id="ST4-Ng-955"/>
+                        <outlet property="mapView" destination="Awo-qO-jvh" id="uim-GJ-rUD"/>
+                        <outlet property="txtComment" destination="7Hg-re-J9r" id="347-KG-cm9"/>
+                        <outlet property="txtLocation" destination="Oix-eE-Kh5" id="PkB-j5-ugp"/>
+                        <outlet property="txtUsername" destination="Hl3-TT-ZiX" id="Ial-ww-6Vb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tNa-o2-mXN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2004" y="776.76161919040487"/>
+            <point key="canvasLocation" x="1628" y="777"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nej-Jz-KxV">
