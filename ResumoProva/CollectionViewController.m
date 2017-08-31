@@ -7,6 +7,7 @@
 //
 
 #import "CollectionViewController.h"
+#import "CollectionItemViewCell.h"
 
 @interface CollectionViewController ()
 
@@ -28,9 +29,10 @@
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
  
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cellID" forIndexPath:indexPath];
+    CollectionItemViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"cellID" forIndexPath:indexPath];
     
     cell.backgroundColor = UIColor.purpleColor;
+    cell.title.text = self.arraySemana[indexPath.row];
     return cell;
 }
 
