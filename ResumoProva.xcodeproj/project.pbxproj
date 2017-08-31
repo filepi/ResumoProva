@@ -19,6 +19,8 @@
 		15677F5C1F522ED40076C9B4 /* ServerAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 15677F5B1F522ED40076C9B4 /* ServerAPI.m */; };
 		15677F5F1F5247210076C9B4 /* NewCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15677F5E1F5247210076C9B4 /* NewCommentViewController.m */; };
 		15677F611F5253700076C9B4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15677F601F52536F0076C9B4 /* MapKit.framework */; };
+		15BA22561F58B414004DD28D /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA22551F58B414004DD28D /* CollectionViewController.m */; };
+		15BA22591F58B96A004DD28D /* CollectionItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA22581F58B96A004DD28D /* CollectionItemViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,10 @@
 		15677F5D1F5247210076C9B4 /* NewCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCommentViewController.h; sourceTree = "<group>"; };
 		15677F5E1F5247210076C9B4 /* NewCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCommentViewController.m; sourceTree = "<group>"; };
 		15677F601F52536F0076C9B4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		15BA22541F58B414004DD28D /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		15BA22551F58B414004DD28D /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		15BA22571F58B96A004DD28D /* CollectionItemViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionItemViewCell.h; sourceTree = "<group>"; };
+		15BA22581F58B96A004DD28D /* CollectionItemViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionItemViewCell.m; sourceTree = "<group>"; };
 		585958263FE7C57D0C9A78AB /* Pods-ResumoProva.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResumoProva.release.xcconfig"; path = "Pods/Target Support Files/Pods-ResumoProva/Pods-ResumoProva.release.xcconfig"; sourceTree = "<group>"; };
 		D15A37E5258AE63D9EA201D0 /* libPods-ResumoProva.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ResumoProva.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F11A50521DD20265F9D070 /* Pods-ResumoProva.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResumoProva.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ResumoProva/Pods-ResumoProva.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +92,11 @@
 				15677F431F5110260076C9B4 /* ViewController.h */,
 				15677F441F5110260076C9B4 /* ViewController.m */,
 				15677F461F5110260076C9B4 /* Main.storyboard */,
+				15BA22541F58B414004DD28D /* CollectionViewController.h */,
+				15BA22551F58B414004DD28D /* CollectionViewController.m */,
 				15677F5D1F5247210076C9B4 /* NewCommentViewController.h */,
+				15BA22571F58B96A004DD28D /* CollectionItemViewCell.h */,
+				15BA22581F58B96A004DD28D /* CollectionItemViewCell.m */,
 				15677F5E1F5247210076C9B4 /* NewCommentViewController.m */,
 				15677F571F5116010076C9B4 /* CustomTableViewCell.h */,
 				15677F581F5116010076C9B4 /* CustomTableViewCell.m */,
@@ -253,11 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15BA22561F58B414004DD28D /* CollectionViewController.m in Sources */,
 				15677F451F5110260076C9B4 /* ViewController.m in Sources */,
 				15677F5F1F5247210076C9B4 /* NewCommentViewController.m in Sources */,
 				15677F5C1F522ED40076C9B4 /* ServerAPI.m in Sources */,
 				15677F421F5110260076C9B4 /* AppDelegate.m in Sources */,
 				15677F3F1F5110260076C9B4 /* main.m in Sources */,
+				15BA22591F58B96A004DD28D /* CollectionItemViewCell.m in Sources */,
 				15677F591F5116010076C9B4 /* CustomTableViewCell.m in Sources */,
 				15677F4B1F5110260076C9B4 /* ResumoProva.xcdatamodeld in Sources */,
 			);
