@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EFCC6D0579E01374701898F /* libPods-ResumoProva.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D15A37E5258AE63D9EA201D0 /* libPods-ResumoProva.a */; };
+		152816431F59AB740017FCEF /* CustomControlXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 152816421F59AB740017FCEF /* CustomControlXIB.xib */; };
 		15677F3F1F5110260076C9B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15677F3E1F5110260076C9B4 /* main.m */; };
 		15677F421F5110260076C9B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15677F411F5110260076C9B4 /* AppDelegate.m */; };
 		15677F451F5110260076C9B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15677F441F5110260076C9B4 /* ViewController.m */; };
@@ -21,9 +21,11 @@
 		15677F611F5253700076C9B4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15677F601F52536F0076C9B4 /* MapKit.framework */; };
 		15BA22561F58B414004DD28D /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA22551F58B414004DD28D /* CollectionViewController.m */; };
 		15BA22591F58B96A004DD28D /* CollectionItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BA22581F58B96A004DD28D /* CollectionItemViewCell.m */; };
+		65A12E9157562F15C2BD738D /* libPods-ResumoProva.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F17B8794F4D3AF70C3F00A68 /* libPods-ResumoProva.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		152816421F59AB740017FCEF /* CustomControlXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomControlXIB.xib; sourceTree = "<group>"; };
 		15677F3A1F5110260076C9B4 /* ResumoProva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResumoProva.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15677F3E1F5110260076C9B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15677F401F5110260076C9B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,9 +48,9 @@
 		15BA22551F58B414004DD28D /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 		15BA22571F58B96A004DD28D /* CollectionItemViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionItemViewCell.h; sourceTree = "<group>"; };
 		15BA22581F58B96A004DD28D /* CollectionItemViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionItemViewCell.m; sourceTree = "<group>"; };
-		585958263FE7C57D0C9A78AB /* Pods-ResumoProva.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResumoProva.release.xcconfig"; path = "Pods/Target Support Files/Pods-ResumoProva/Pods-ResumoProva.release.xcconfig"; sourceTree = "<group>"; };
-		D15A37E5258AE63D9EA201D0 /* libPods-ResumoProva.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ResumoProva.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5F11A50521DD20265F9D070 /* Pods-ResumoProva.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResumoProva.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ResumoProva/Pods-ResumoProva.debug.xcconfig"; sourceTree = "<group>"; };
+		2B70F26ACCEA98FA1917570B /* Pods-ResumoProva.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResumoProva.release.xcconfig"; path = "Pods/Target Support Files/Pods-ResumoProva/Pods-ResumoProva.release.xcconfig"; sourceTree = "<group>"; };
+		39406089813C4C6CF5E54CB7 /* Pods-ResumoProva.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResumoProva.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ResumoProva/Pods-ResumoProva.debug.xcconfig"; sourceTree = "<group>"; };
+		F17B8794F4D3AF70C3F00A68 /* libPods-ResumoProva.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ResumoProva.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15677F611F5253700076C9B4 /* MapKit.framework in Frameworks */,
-				0EFCC6D0579E01374701898F /* libPods-ResumoProva.a in Frameworks */,
+				65A12E9157562F15C2BD738D /* libPods-ResumoProva.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,8 +71,8 @@
 			children = (
 				15677F3C1F5110260076C9B4 /* ResumoProva */,
 				15677F3B1F5110260076C9B4 /* Products */,
-				7D889D858CCE29B16DB83042 /* Pods */,
 				A0012F58BBA384C7DA627241 /* Frameworks */,
+				EF6E57EC1F737BCE20DAB97A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +94,7 @@
 				15677F431F5110260076C9B4 /* ViewController.h */,
 				15677F441F5110260076C9B4 /* ViewController.m */,
 				15677F461F5110260076C9B4 /* Main.storyboard */,
+				152816421F59AB740017FCEF /* CustomControlXIB.xib */,
 				15BA22541F58B414004DD28D /* CollectionViewController.h */,
 				15BA22551F58B414004DD28D /* CollectionViewController.m */,
 				15677F5D1F5247210076C9B4 /* NewCommentViewController.h */,
@@ -117,22 +120,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7D889D858CCE29B16DB83042 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E5F11A50521DD20265F9D070 /* Pods-ResumoProva.debug.xcconfig */,
-				585958263FE7C57D0C9A78AB /* Pods-ResumoProva.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		A0012F58BBA384C7DA627241 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				15677F601F52536F0076C9B4 /* MapKit.framework */,
-				D15A37E5258AE63D9EA201D0 /* libPods-ResumoProva.a */,
+				F17B8794F4D3AF70C3F00A68 /* libPods-ResumoProva.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF6E57EC1F737BCE20DAB97A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39406089813C4C6CF5E54CB7 /* Pods-ResumoProva.debug.xcconfig */,
+				2B70F26ACCEA98FA1917570B /* Pods-ResumoProva.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,12 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15677F541F5110260076C9B4 /* Build configuration list for PBXNativeTarget "ResumoProva" */;
 			buildPhases = (
-				62C2B50AF0EB967A0B9F9639 /* [CP] Check Pods Manifest.lock */,
+				FEE47DA1346D5C702545939F /* [CP] Check Pods Manifest.lock */,
 				15677F361F5110260076C9B4 /* Sources */,
 				15677F371F5110260076C9B4 /* Frameworks */,
 				15677F381F5110260076C9B4 /* Resources */,
-				782DF84AF0176ED640993ED2 /* [CP] Embed Pods Frameworks */,
-				1076C1C788B866DF35F75AAE /* [CP] Copy Pods Resources */,
+				EE9FAE82EDF2FC317E3FC9EE /* [CP] Embed Pods Frameworks */,
+				D59F597A9B6BF17A5FF1B2F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				152816431F59AB740017FCEF /* CustomControlXIB.xib in Resources */,
 				15677F501F5110260076C9B4 /* LaunchScreen.storyboard in Resources */,
 				15677F4D1F5110260076C9B4 /* Assets.xcassets in Resources */,
 				15677F481F5110260076C9B4 /* Main.storyboard in Resources */,
@@ -205,7 +209,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1076C1C788B866DF35F75AAE /* [CP] Copy Pods Resources */ = {
+		D59F597A9B6BF17A5FF1B2F8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -223,7 +227,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ResumoProva/Pods-ResumoProva-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		62C2B50AF0EB967A0B9F9639 /* [CP] Check Pods Manifest.lock */ = {
+		EE9FAE82EDF2FC317E3FC9EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ResumoProva/Pods-ResumoProva-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEE47DA1346D5C702545939F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,21 +258,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		782DF84AF0176ED640993ED2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ResumoProva/Pods-ResumoProva-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -389,7 +393,7 @@
 		};
 		15677F551F5110260076C9B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5F11A50521DD20265F9D070 /* Pods-ResumoProva.debug.xcconfig */;
+			baseConfigurationReference = 39406089813C4C6CF5E54CB7 /* Pods-ResumoProva.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ResumoProva/Info.plist;
@@ -401,7 +405,7 @@
 		};
 		15677F561F5110260076C9B4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 585958263FE7C57D0C9A78AB /* Pods-ResumoProva.release.xcconfig */;
+			baseConfigurationReference = 2B70F26ACCEA98FA1917570B /* Pods-ResumoProva.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ResumoProva/Info.plist;

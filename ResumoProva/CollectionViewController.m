@@ -18,8 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.arraySemana = @[ @"Segunda", @"Terca", @"Quarta", @"Quinta", @"Sexta", @"Sabado", @"Domingo"];
-    // Do any additional setup after loading the view.
+    
+    self.customView = [[[NSBundle mainBundle] loadNibNamed:@"CustomControlXIB" owner:self options:nil] objectAtIndex:0];
+    
+  [UIView transitionWithView:self.view duration:4.0 options:UIViewAnimationOptionTransitionFlipFromRight animations:^{
+      [self.view addSubview:self.customView];
+  } completion:^(BOOL finished) {
+
+  }];
 }
+
+-(void)Vi
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

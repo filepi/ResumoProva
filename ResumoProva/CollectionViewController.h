@@ -13,5 +13,6 @@
 
 @property (nonatomic, strong) NSArray* arraySemana;
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
+@property (strong, nonatomic) IBOutlet UIView *customView;
 
 @end
